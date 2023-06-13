@@ -17,7 +17,7 @@ class _PasienPageState extends State<PasienPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Data Poli"),
+        title: const Text("Data Pasien"),
         actions: [
           GestureDetector(
             child: const Icon(Icons.add),
@@ -31,7 +31,7 @@ class _PasienPageState extends State<PasienPage> {
       body: ListView(
         children: [
           PasienItem(pasien: Pasien(namaPasien: "Jarwo")),
-          PasienItem(pasien: Pasien(namaPasien: "Sukadi")),
+          PasienItem(pasien: Pasien(namaPasien: "Suka kamu")),
           PasienItem(pasien: Pasien(namaPasien: "Putri")),
         ],
       ),
